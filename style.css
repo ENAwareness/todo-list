@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+
+}
+.container {
+    width: 80%;
+    overflow: hidden;
+    padding: 0 20px;
+}
+main {
+    display: flex;
+    gap: 2rem;
+}
+.projects, .todos {
+    flex: 1;
+}
