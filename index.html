@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
@@ -13,31 +13,28 @@
       </header>
       <main>
         <div class="projects">
-            <h2>Projects</h2>
-            <ul id="project-list"></ul>
-            <form id="add-project-form">
-                <input type="text" id="new-project-name" placeholder="New project name" required>
-                <button type="submit">Add project</button>
-            </form>
-            </ul>
+          <h2>Projects</h2>
+          <ul id="project-list"></ul>
+          <form id="add-project-form">
+            <input type="text" id="new-project-name" placeholder="New project name" required />
+            <button type="submit">Add project</button>
+          </form>
         </div>
         <div class="todos">
-            <h2>Todos</h2>
-            <ul id="todo-list"></ul>
-            <form id="add-todo-list">
-                <input type="text" id="new-todo-title" placeholder="Title" required>
-                <textarea name="" id="new-todo-description" placeholder="Description"></textarea>
-                <input type="data" id="new-todo-due-data" required>
-                <select id="new-todo-priority" required>
-                  <option value="low">Low</option>
-                  <option value="medium">Medium</option>
-                  <option value="high">High</option>
-                </select>
-                <select id="new-todo-project" required>
-
-                </select>
-                <button type="submit">Add Todo</button>
-            </form>
+          <h2>Todos</h2>
+          <ul id="todo-list"></ul>
+          <form id="add-todo-list">
+            <input type="text" id="new-todo-title" placeholder="Title" required />
+            <textarea name="" id="new-todo-description" placeholder="Description"></textarea>
+            <input type="date" id="new-todo-due-date" required />
+            <select id="new-todo-priority" required>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+            <select id="new-todo-project" required></select>
+            <button type="submit">Add Todo</button>
+          </form>
         </div>
       </main>
     </div>

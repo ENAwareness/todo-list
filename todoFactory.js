@@ -1,8 +1,8 @@
-export const createTodo = (title, description, dueData, priority, projectId) => {
+export const createTodo = (title, description, dueDate, priority, projectId) => {
   return {
     title,
     description,
-    dueData,
+    dueDate,
     priority,
     completed: false,
     projectId,
